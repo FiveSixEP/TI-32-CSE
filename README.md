@@ -1,45 +1,42 @@
-# TI-32
+# TI-32-CSE
 
-A mod for the TI-84 Plus Silver Edition & TI-84 Plus C Silver Edition calculators to give them internet access and add other features, like test mode breakout and camera support
+A fork of TI-32. This mod gives TI-84 Plus C Silver Edition calculators access to Gemini API (or OpenAI API) chat completion requests.
+
 
 ![built pcb](./pcb/built.png)
 
-## Fork differences
+## License
 
-- Google api option for server
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You may use, modify, and distribute this software for personal and non-commercial purposes only. Commercial use is strictly prohibited.
 
-## Features to be Added
 
-- Change Wi-Fi settings directly from calculator
-- Watchdog when receiving items
-- Support for color images
-- Action text during waiting phase
-- Support for multi-page response from GPT
-- Support for chat history from GPT
-- Support for bigger menu (320x240 resolution only)
-- Support for lowercase text
-- Documentation
-- Basic Web Browsing
-- HTTPS Encryption
-- Email Send and Read
-- Discord Access
-- Get local weather
-- Control computer wirelessly
-- QR Code & Barcode scanner
-- Video player
+## Fork additions
 
-## Bug Fixes
-
-- GPT Menu closes immediately when receiving response
-- App transfer fails
-
-## Known Issues
-
-- Images don't tranfer: if you get this problem, one cause is the esp32 not having enough memory to store the picture or the picture is too large.
+- Gemini API support
+- Support for paginated response on GPT
+- Support for replying to GPT
 
 ## Documentation
 
 Read the DOCUMENTATION.md file
+Not fully built
 
-## Video
-[![YouTube](http://i.ytimg.com/vi/Bicjxl4EcJg/hqdefault.jpg)](https://www.youtube.com/watch?v=Bicjxl4EcJg)
+## Features to be Added
+
+- HTTPS Encryption
+- Change Wi-Fi settings directly from calculator
+- Watchdog when receiving items
+- Support for color images
+- Action text during waiting phase
+- Support for lowercase text
+- Documentation
+- Basic Web Browsing
+- Email Send and Read
+- Discord Access
+- Get local weather
+- Control computer wirelessly
+- Video player
+
+
+
+
