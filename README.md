@@ -5,6 +5,10 @@ A fork of TI-32. This mod gives TI-84 Plus C Silver Edition calculators access t
 
 ![built pcb](./pcb/built.png)
 
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You may use, modify, and distribute this software for personal and non-commercial purposes only. Commercial use is strictly prohibited.
+
 
 ## Fork additions
 
