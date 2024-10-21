@@ -7,7 +7,7 @@ A fork of TI-32. This mod gives TI-84 Plus C Silver Edition calculators access t
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. You may use, modify, and distribute this software for personal and non-commercial purposes only. Commercial use is strictly prohibited.
+This project is licensed under the GNU Affero General Public License
 
 
 ## Fork additions
